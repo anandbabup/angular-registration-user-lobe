@@ -70,6 +70,7 @@ export class UploadComponent implements OnInit {
 
     ngOnInit() {
         this.baseURL = this.config.apiUrl;
+        console.log(this.baseURL);
     }
 
 
